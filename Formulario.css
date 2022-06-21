@@ -2,9 +2,15 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #ff4321;
+    background-color: #f54e31e4;
     font-size: 1rem;
     color: #212529;
+}
+
+legend {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
 }
 
 #area {
@@ -25,6 +31,17 @@ body {
 #titulo {
     display: flex;
     margin-bottom: 30px;
+}
+
+#dados_formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+#form{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
 }
 
 .dados {
@@ -82,23 +99,6 @@ body {
     border-radius: 5px;
 }
 
-legend {
-    text-transform: uppercase;
-    font-size: large;
-    font-weight: bold;
-}
-
-#dados_formulario{
-    display: flex;
-    flex-direction: column;
-}
-
-#form{
-    display: flex;
-    flex-direction: row-reverse;
-    margin-right: 20px;
-}
-
 .imagem_box{
     display: flex;
     margin-top: 50px;
@@ -110,4 +110,48 @@ legend {
     max-height:300px;
     width: auto;
     height: auto;
+}
+
+.btn_submit{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px rgba(7, 7, 7, 0.22);
+}
+
+.btn_submit:hover{
+    background-color:#f54e318e ;
+    color: #ffffff;
+}
+
+.Redes-Sociais{
+    display: flex;
+    margin-bottom: 100px;
+    display: flex;
+justify-content: center;
+}
+
+.Redes-Sociais-icons{
+    margin-right: 110px;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+.Redes-Sociais-icons a{
+    margin-right: 50%;
+    text-decoration: none;
+    color: #ffffff;
+    align-items: center;
+}
+
+
+.Redes-Sociais-icons a:hover{
+    color: #ff4321;
+    transform: translateY(-5px);
+}
+
+.Footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
 }
