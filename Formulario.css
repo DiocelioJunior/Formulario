@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ff4321;
+    font-size: 1rem;
+    color: #212529;
+}
+
+#area {
+    display: flex;
+    justify-content: center;
+}
+
+#formulario {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(7, 7, 7, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 800px;
+    transition: all 0.3s ease-out;
+}
+
+#titulo {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.campo_nome {
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+.campo_sobrenome {
+    margin-left: 9px;
+    border-radius: 5px;
+}
+
+.campo_email {
+    margin-left: 55px;
+    border-radius: 5px;
+}
+
+.campo_cel {
+    border-radius: 5px;
+}
+
+.campo_ddd_cel {
+    margin-left: 43px;
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 30px;
+}
+
+.campo_tel {
+    border-radius: 5px;
+}
+
+.campo_ddd_tel {
+    margin-left: 30px;
+    margin-right: 7px;
+    border-radius: 5px;
+    width: 30px;
+}
+
+.genero{
+    margin-left: 38px;
+    border-radius: 5px;
+    border-width: 2px;
+    width: 100px;
+}
+
+.nascimento{
+    margin-left: 16px;
+    border-radius: 5px;
+}
+
+legend {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+}
+
+#dados_formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+#form{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+}
+
+.imagem_box{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.imagem{
+    max-width:400px;
+    max-height:280px;
+    width: auto;
+    height: auto;
+}
