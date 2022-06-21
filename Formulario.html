@@ -3,63 +3,85 @@
 <head>
     <title>Formulário Personalizado</title>
     <link rel="stylesheet" type="text/css" href="Formulario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body>
     <div id="area">
 
         <form id="formulario" autocomplete="on">
-           
+
             <div id="titulo">
                 <legend>Formulario de Cadastro</legend>
             </div>
-<div id="form">          
-    <div class="imagem_box">
-        <img src="img/Form.jpg" class="imagem">
-    </div>        
-    <div id="dados_formulario">
-            <div class ="dados">
-                <label>Nome:</label><input class="campo_nome" type="text" required><br>
-            </div>
+            <div id="form">
+                <div class="imagem_box">
+                    <img src="img/Form.jpg" class="imagem">
+                </div>
+                <div id="dados_formulario">
+                    <div class="dados">
+                        <label>Nome:</label><input class="campo_nome" type="text" required><br>
+                    </div>
 
-            <div class ="dados">
-                <label>Sobrenome: </label><input class="campo_sobrenome" type="text" required><br>
-            </div>
+                    <div class="dados">
+                        <label>Sobrenome: </label><input class="campo_sobrenome" type="text" required><br>
+                    </div>
 
-            <div class ="dados">
-                <label>Email: </label><input class="campo_email" type="email" required><br>
-            </div>
+                    <div class="dados">
+                        <label>Email: </label><input class="campo_email" type="email" required><br>
+                    </div>
 
-            <div class ="dados">
-                <label>Celular: </label><input class="campo_ddd_cel" type="text" placeholder="00"><input class="campo_cel"
-                    type="text" placeholder="00000-0000"><br>
-            </div>
+                    <div class="dados">
+                        <label>Celular: </label><input class="campo_ddd_cel" type="text" placeholder="00"><input
+                            class="campo_cel" type="text" placeholder="00000-0000"><br>
+                    </div>
 
-            <div class ="dados">
-                <label>Telefone: </label><input class="campo_ddd_tel" type="text"  placeholder="00"><input class="campo_tel"
-                    type="text" placeholder="0000-0000"><br>
-            </div>
+                    <div class="dados">
+                        <label>Telefone: </label><input class="campo_ddd_tel" type="text" placeholder="00"><input
+                            class="campo_tel" type="text" placeholder="0000-0000"><br>
+                    </div>
 
-            <div class ="dados">
-                <label>Gênero: </label>
-                <select class="genero">
-                    <option value="#">Masculino</option>
-                    <option value="#">Feminino</option>
-                    <option value="#">Outro (Por favor, especifique)</option>
-                    <option value="#">Prefiro não dizer</option>
-                </select>
-                <br>
-            </div>
-        
-            <div class ="dados">
-                <label>Nascimeto:</label><input class="nascimento" type="date"><br>
-            </div>
-            <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
-            <input class="btn_submit" type="submit" value="Enviar">
-        </div>
+                    <div class="dados">
+                        <label>Gênero: </label>
+                        <select class="genero">
+                            <option value="#">Masculino</option>
+                            <option value="#">Feminino</option>
+                            <option value="#">Outro (Por favor, especifique)</option>
+                            <option value="#">Prefiro não dizer</option>
+                        </select>
+                        <br>
+                    </div>
+
+                    <div class="dados">
+                        <label>Nascimeto:</label><input class="nascimento" type="date"><br>
+                    </div>
+                    <br>
+                    <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+                    <input class="btn_submit" type="submit" value="Enviar">
+                </div>
         </form>
     </div>
-</div> 
+    </div>
+
+    <section class="Redes-Sociais">
+        <ul class="Redes-Sociais-icons">
+            <li class="Redes-Sociais-item"></li><a href="https://www.linkedin.com/in/dioceliojr/"
+                class="fa fa-linkedin"></a>
+            <li class="Redes-Sociais-item"></li><a href="https://www.instagram.com/diowritos/"
+                class="fa fa-instagram"></a>
+            <li class="Redes-Sociais-item"></li><a href="https://github.com/DiocelioJunior" class="fa fa-github"></a>
+        </ul>
+    </section>
+
+
+    <section class="Footer">
+        <footer class="Footer-informação">
+            Diocelio Junior Rocha
+        </footer>
+    </section>
+
 </body>
 
 </html>
