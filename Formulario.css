@@ -33,12 +33,12 @@ legend {
     margin-bottom: 30px;
 }
 
-#dados_formulario{
+#dados_formulario {
     display: flex;
     flex-direction: column;
 }
 
-#form{
+#form {
     display: flex;
     flex-direction: row-reverse;
     margin-right: 20px;
@@ -87,56 +87,56 @@ legend {
     width: 30px;
 }
 
-.genero{
+.genero {
     margin-left: 38px;
     border-radius: 5px;
     border-width: 2px;
     width: 100px;
 }
 
-.nascimento{
+.nascimento {
     margin-left: 16px;
     border-radius: 5px;
 }
 
-.imagem_box{
+.imagem_box {
     display: flex;
     margin-top: 50px;
     margin-left: 20px;
 }
 
-.imagem{
-    max-width:450px;
-    max-height:300px;
+.imagem {
+    max-width: 450px;
+    max-height: 300px;
     width: auto;
     height: auto;
 }
 
-.btn_submit{
+.btn_submit {
     border-radius: 5px;
     box-shadow: 2px 2px 2px 0px rgba(7, 7, 7, 0.22);
 }
 
-.btn_submit:hover{
-    background-color:#f54e318e ;
+.btn_submit:hover {
+    background-color: #f54e318e;
     color: #ffffff;
 }
 
-.Redes-Sociais{
+.Redes-Sociais {
     display: flex;
     margin-bottom: 100px;
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
 
-.Redes-Sociais-icons{
+.Redes-Sociais-icons {
     margin-right: 110px;
     list-style: none;
     display: flex;
     font-size: 20px;
 }
 
-.Redes-Sociais-icons a{
+.Redes-Sociais-icons a {
     margin-right: 50%;
     text-decoration: none;
     color: #ffffff;
@@ -144,12 +144,12 @@ justify-content: center;
 }
 
 
-.Redes-Sociais-icons a:hover{
+.Redes-Sociais-icons a:hover {
     color: #ff4321;
     transform: translateY(-5px);
 }
 
-.Footer{
+.Footer {
     align-items: center;
     display: flex;
     justify-content: center;
